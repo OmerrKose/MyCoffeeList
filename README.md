@@ -17,13 +17,4 @@ A simple iOS app built with SwiftUI that allows users to view a list of hot and 
 
 ## Structure
 
-CoffeeApp/
-│
-|── ViewModel/
-|   └── CoffeeViewModel.swift        # ViewModel responsible for fetching coffee data
-|── View/
-|   |── ContentView.swift            # Main view displaying the list of coffees
-|   |── CoffeeCardView.swift         # Custom card view for displaying coffee items
-|   └── CoffeeDetailView.swift       # View displaying detailed information about a coffee
-└── Model/
-    └── Coffee.swift                 # Data model representing a coffee item
+CoffeeApp/ │ ├── ViewModel/ │ └── CoffeeViewModel.swift # ViewModel responsible for fetching coffee data │ ├── View/ │ ├── ContentView.swift # Main view displaying the list of coffees │ ├── CoffeeCardView.swift # Custom card view for displaying coffee items │ └── CoffeeDetailView.swift # View displaying detailed information about a coffee │ └── Model/ └── Coffee.swift # Data model representing a coffee item
